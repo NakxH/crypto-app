@@ -1,13 +1,21 @@
-const { Card } = require("./components/Card");
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
+import { Menubar } from "./components/Menubar";
+import { HomePage } from "./pages/HomePage";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <Card>
-        <p>Test</p>
-      </Card>
-    </div>
-  )
+    <React.Fragment>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+        <Menubar />
+      </Router>
+    </React.Fragment>
+  );
 }
-
-export default App;
