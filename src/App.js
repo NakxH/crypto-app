@@ -4,6 +4,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+import { HorizontalScroller } from "./components/HorizontalScroller/HorizontalScroller";
 import { Menubar } from "./components/Menubar";
 import { HomePage } from "./pages/HomePage";
 
