@@ -5,6 +5,7 @@ import { HorizontalScroller } from '../../components/HorizontalScroller/Horizont
 export const HomePage = () => {
     return (
         <div>
+            HomePage
             <HorizontalScroller>
                 <div className='w-3/4 mr-5 shrink-0 text-white'>
                     <Card>
