@@ -8,6 +8,26 @@ export const Categories = () => {
                 Categories
             </h1>
             <div className='my-5 px-2 shrink-0 text-white flex flex-wrap'>
+                <div className='w-1/2 p-2 text-white'>
+                    <Card>
+                        Test
+                    </Card>
+                </div>
+                <div className='w-1/2 p-2'>
+                    <Card>
+                        Test
+                    </Card>
+                </div>
+                <div className='w-1/2 p-2'>
+                    <Card>
+                        Test
+                    </Card>
+                </div>
+                <div className='w-1/2 p-2'>
+                    <Card>
+                        Test
+                    </Card>
+                </div>
                 <div className='w-1/2 p-2'>
                     <Card>
                         Test
